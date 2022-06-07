@@ -1,0 +1,1 @@
+{"apiVersion":"v1","kind":"Service","metadata":{"labels":{"app":"nginx","emco/deployment-id":"4588419160787798899-nginx"},"name":"nginx","namespace":"default"},"spec":{"ports":[{"name":"80","port":80,"targetPort":80}],"selector":{"app":"nginx"}}}
